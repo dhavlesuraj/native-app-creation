@@ -1,0 +1,57 @@
+ https://reactnative.dev/docs/environment-setup
+https://medium.com/react-native-training/vscode-for-react-native-526ec4a368ce
+
+Project create commands step1-step7 only
+
+Step 1- Open node.js command prompt
+
+Step 2- Navigate directory for storing app
+
+Step 3- npm install -g create-react-native-app
+
+Step 4- create-react-native-app FirstApp(FirstApp=App Name)
+
+Step 5- Select template and press Entercd
+
+Step 6- Open app folder in VS Code
+ 
+Step 7- npx react-native
+
+npx expo install @expo/webpack-config@^0.17.0
+
+Stack Navigation Commands-
+npm install @react-navigation/native @react-navigation/native-stack
+expo install react-native-screens react-native-safe-area-context or
+npm install react-native-screens react-native-safe-area-context	
+
+BottamTab Navigator-  npm install @react-navigation/bottom-tabs
+
+VectorIcons- npm i react-native-vector-icons@6.6.0	
+
+
+create app packejes on manually-(shortkut-npm install -g create-react-native-app)
+npm init -y
+npm install react react-dom --save
+npm install webpack webpack-dev-server webpack-cli --save
+npm install babel-core babel-loader babel-preset-env babel-preset-react babel-webpack-plugin --save-dev
+
+react native sql connection-{
+npm install react-native-my-sql-connection --save
+npm install mysql
+npm install express
+npm install body-parser}
+
+firebase connectivity-{
+1-npm install --save @react-native-firebase/app		
+build.gradul-
+dependansy-
+1-classpath 'com.google.gms:google-services:4.3.14'
+
+app-build.gradul-
+1-apply plugin: 'com.android.application'
+2-apply plugin: 'com.google.gms.google-services'
+
+run-
+npx react-native run-android
+}
+https://rnfirebase.io/
